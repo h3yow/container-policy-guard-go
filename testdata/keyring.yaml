@@ -1,0 +1,23 @@
+# 信任公钥库：active / rotated / revoked 三种生命周期状态。
+keys:
+  - id: key-active-1
+    algorithm: Ed25519
+    state: active
+    publicKey: |
+      -----BEGIN PUBLIC KEY-----
+      MCowBQYDK2VwAyEAPNt9iubW7UKgN9y8EDE0n+hXEGITOOmaDgib0eQf3gU=
+      -----END PUBLIC KEY-----
+  - id: key-rotated-1
+    algorithm: Ed25519
+    state: rotated
+    publicKey: |
+      -----BEGIN PUBLIC KEY-----
+      MCowBQYDK2VwAyEAg0WM75fMwUYxcsUA0QR4pXUd3wONuq5qDtovJhSjLeQ=
+      -----END PUBLIC KEY-----
+  - id: key-revoked-1
+    algorithm: Ed25519
+    state: revoked
+    publicKey: |
+      -----BEGIN PUBLIC KEY-----
+      MCowBQYDK2VwAyEA4sd1kFmajt7/guLstoRmmTVV+x1kwjXiROBY5uWoqso=
+      -----END PUBLIC KEY-----

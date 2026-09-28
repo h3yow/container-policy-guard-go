@@ -1,0 +1,5 @@
+version: ""
+rules:
+  - id: ok
+    repository: example.com/*
+    effect: allow

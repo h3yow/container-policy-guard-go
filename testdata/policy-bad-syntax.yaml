@@ -1,0 +1,5 @@
+version: pol-bad
+rules:
+  - id: x
+    effect: allow
+    repository: [a, b

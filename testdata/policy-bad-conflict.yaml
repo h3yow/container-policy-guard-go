@@ -1,0 +1,8 @@
+version: pol-conflict
+rules:
+  - id: dup
+    repository: example.com/*
+    effect: allow
+  - id: dup
+    repository: example.com/*
+    effect: deny

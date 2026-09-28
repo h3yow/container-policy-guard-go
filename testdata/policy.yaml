@@ -1,0 +1,16 @@
+# 外部策略文件（示例）。与内置规则合并生效。
+version: pol-v1
+rules:
+  - id: org/allow-signed-images
+    repository: registry.example.com/*
+    requiredSignatures: 2          # 多签：需要 2 个不同信任密钥的有效签名
+    allowedDigestAlgorithms: [sha256, sha384, sha512]
+    effect: allow
+    priority: 100
+  - id: org/require-provenance
+    repository: registry.example.com/apps/*
+    requiredSignatures: 1
+    requireAttestations: [provenance]
+    allowedDigestAlgorithms: [sha256, sha384, sha512]
+    effect: allow
+    priority: 110

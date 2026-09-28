@@ -1,0 +1,34 @@
+apiVersion: guard.image/v1
+images:
+  registry.example.com/base:1.0:
+    apiVersion: guard.image/v1
+    reference: registry.example.com/base:1.0
+    repository: registry.example.com/base
+    imageName: base
+    tag: "1.0"
+    digest: sha256:1111111111111111111111111111111111111111111111111111111111111111
+    digestAlgorithm: sha256
+  registry.example.com/apps/web:2.3:
+    apiVersion: guard.image/v1
+    reference: registry.example.com/apps/web:2.3
+    repository: registry.example.com/apps/web
+    imageName: web
+    tag: "2.3"
+    digest: sha256:2222222222222222222222222222222222222222222222222222222222222222
+    digestAlgorithm: sha256
+  registry.example.com/legacy:1:
+    apiVersion: guard.image/v0          # 不兼容的元数据版本
+    reference: registry.example.com/legacy:1
+    repository: registry.example.com/legacy
+    imageName: legacy
+    tag: "1"
+    digest: sha256:3333333333333333333333333333333333333333333333333333333333333333
+    digestAlgorithm: sha256
+  registry.example.com/weak:1:
+    apiVersion: guard.image/v1
+    reference: registry.example.com/weak:1
+    repository: registry.example.com/weak
+    imageName: weak
+    tag: "1"
+    digest: sha1:44444444444444444444444444444444
+    digestAlgorithm: sha1

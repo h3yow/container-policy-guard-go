@@ -1,0 +1,10 @@
+# 策略更新后的版本：收紧为必须携带 provenance 证明，且优先级提升。
+version: pol-v2
+rules:
+  - id: org/allow-signed-images
+    repository: registry.example.com/*
+    requiredSignatures: 2
+    requireAttestations: [provenance]
+    allowedDigestAlgorithms: [sha256, sha384, sha512]
+    effect: allow
+    priority: 100
