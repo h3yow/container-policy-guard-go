@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "name": "external-allow-legacy-temp",
+      "source": "file",
+      "priority": 200,
+      "action": "allow",
+      "imageRefs": ["registry.local/app/legacy:*"],
+      "requires": ["signature", "attestation:sbom"],
+      "reason": "temporary migration exception"
+    }
+  ]
+}

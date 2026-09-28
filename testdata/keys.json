@@ -1,0 +1,6 @@
+[
+  {"id": "key-team-a-2026", "state": "active",  "alg": "ed25519"},
+  {"id": "key-team-a-2025", "state": "rotated", "alg": "ed25519", "rotatedBy": "key-team-a-2026"},
+  {"id": "key-revoked-2024", "state": "revoked", "alg": "ed25519"},
+  {"id": "key-sha1-era", "state": "active", "alg": "ed25519"}
+]

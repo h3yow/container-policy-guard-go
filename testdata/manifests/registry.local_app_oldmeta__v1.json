@@ -1,0 +1,23 @@
+{
+  "apiVersion": "v0",
+  "imageID": "registry.local/app/oldmeta:v1",
+  "repository": "registry.local/app/oldmeta",
+  "tag": "v1",
+  "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "digestAlg": "sha256",
+  "signatures": [
+    {
+      "keyID": "key-team-a-2026",
+      "alg": "ed25519",
+      "digestAlg": "sha256",
+      "value": "sig|key-team-a-2026|ed25519|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "attestations": [
+    {
+      "type": "sbom",
+      "keyID": "key-team-a-2026",
+      "value": "att|sbom|key-team-a-2026|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

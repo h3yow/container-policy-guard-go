@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rules": [
+    {"name": "file-allow", "source": "file", "priority": 100, "action": "allow", "imageRefs": ["registry.local/app/*"]},
+    {"name": "file-deny",  "source": "file", "priority": 100, "action": "deny",  "imageRefs": ["registry.local/app/*"]}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "apiVersion": "v1",
+  "imageID": "registry.local/app/legacy:v1",
+  "repository": "registry.local/app/legacy",
+  "tag": "v1",
+  "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "digestAlg": "sha256",
+  "signatures": [
+    {
+      "keyID": "key-revoked-2024",
+      "alg": "ed25519",
+      "digestAlg": "sha256",
+      "value": "sig|key-revoked-2024|ed25519|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "attestations": [
+    {
+      "type": "sbom",
+      "keyID": "key-revoked-2024",
+      "value": "att|sbom|key-revoked-2024|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

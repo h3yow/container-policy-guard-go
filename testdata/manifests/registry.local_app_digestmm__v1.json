@@ -1,0 +1,23 @@
+{
+  "apiVersion": "v1",
+  "imageID": "registry.local/app/digestmm:v1",
+  "repository": "registry.local/app/digestmm",
+  "tag": "v1",
+  "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "digestAlg": "sha256",
+  "signatures": [
+    {
+      "keyID": "key-team-a-2026",
+      "alg": "ed25519",
+      "digestAlg": "sha512",
+      "value": "sig|key-team-a-2026|ed25519|sha512|sha512:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }
+  ],
+  "attestations": [
+    {
+      "type": "sbom",
+      "keyID": "key-team-a-2026",
+      "value": "att|sbom|key-team-a-2026|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

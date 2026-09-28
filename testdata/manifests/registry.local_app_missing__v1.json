@@ -1,0 +1,7 @@
+{
+  "apiVersion": "v1",
+  "imageID": "registry.local/app/missing:v1",
+  "repository": "registry.local/app/missing",
+  "tag": "v1",
+  "digestAlg": "sha256"
+}

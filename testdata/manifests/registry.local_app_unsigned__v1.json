@@ -1,0 +1,16 @@
+{
+  "apiVersion": "v1",
+  "imageID": "registry.local/app/unsigned:v1",
+  "repository": "registry.local/app/unsigned",
+  "tag": "v1",
+  "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "digestAlg": "sha256",
+  "signatures": [],
+  "attestations": [
+    {
+      "type": "sbom",
+      "keyID": "key-team-a-2026",
+      "value": "att|sbom|key-team-a-2026|sha256|sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

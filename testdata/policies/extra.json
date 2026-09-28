@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "name": "external-deny-legacy",
+      "source": "file",
+      "priority": 200,
+      "action": "deny",
+      "imageRefs": ["registry.local/app/legacy:*"],
+      "reason": "legacy images blocked by external policy"
+    }
+  ]
+}
